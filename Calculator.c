@@ -14,22 +14,26 @@ int main()
     {
     case '+':
         result=a+b;
-        printf("The Sum Is %f", result);
+        printf("The Sum is: %f", result);
         break;
     case '-':
         result=a-b;
-        printf("The Subtract Is %f", result);
+        printf("The Subtract is:  %f", result);
         break;
     case '*':
         result=a*b;
-        printf("The Multiply Is %f", result);
+        printf("The Multiply is: %f", result);
         break;
     case '/':
         result=a/b;
-        printf("The Division Is %f", result);
+        printf("The Division is: %f", result);
+        break;
+    case '%':
+        result=a%b;
+        printf("The remainder is: %f", result);
         break;
         default:
-    printf("Please Enter Envalid Operater");
+    printf("Please Enter a valid Operater");
         break;
     }
 }
